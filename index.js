@@ -19,8 +19,10 @@ async function start(){
         opasan = document.getElementById("start_button").style.opacity;
         if(change == "plus"){
             document.getElementById("start_button").style.opacity = opasan + 0.1;
+            console.log("plus");
         }else{
             document.getElementById("start_button").style.opacity = opasan - 0.1;
+            console.log("minus");
         }
         opasan = document.getElementById("start_button").style.opacity;
         if(document.getElementById("start_button").style.opacity == 0){
