@@ -12,16 +12,16 @@ async function start(){
     document.getElementById("gamen_start").style.zIndex = 500;
     while(waiting == "true"){
         await sleep(100);
-        op = document.getElementById("start_button").style.opacity;
+        opasan = document.getElementById("start_button").style.opacity;
         if(change == "plus"){
-            document.getElementById("start_button").style.opacity = op + 0.1;
+            document.getElementById("start_button").style.opacity = opasan + 0.1;
         }else{
-            document.getElementById("start_button").style.opacity = op - 0.1;
+            document.getElementById("start_button").style.opacity = opasan - 0.1;
         }
-        op = document.getElementById("start_button").style.opacity;
-        if(op == 0){
+        opasan = document.getElementById("start_button").style.opacity;
+        if(opasan == 0){
             change = "plus";
-        }else if(op == 1){
+        }else if(opasan == 1){
             change = "minus";
         }
     }
