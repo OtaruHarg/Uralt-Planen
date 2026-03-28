@@ -44,4 +44,6 @@ body{
     bottom: 5vh;
     height: 10vh;
     width: 100vw;
+    text-align: center;
+    font-size: 10vh;
 }
