@@ -13,6 +13,18 @@ body{
     z-index: -100;
 }
 
+.start_button{
+    position: absolute;
+    top: 70vh;
+    bottom: 20vh;
+    height: 10vh;
+    color: red;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .Core_drivia{
     position: absolute;
     top: 5vh;
