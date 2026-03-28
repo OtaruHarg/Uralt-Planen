@@ -12,8 +12,10 @@ async function start(){
     document.getElementById("gamen_start").style.zIndex = 500;
     document.getElementById("start_button").style.zIndex = 1000;
     const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
+    console.log("start");
     while(waiting == "true"){
         await sleep(100);
+        console.log("waiting...");
         opasan = document.getElementById("start_button").style.opacity;
         if(change == "plus"){
             document.getElementById("start_button").style.opacity = opasan + 0.1;
