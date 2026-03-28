@@ -18,13 +18,13 @@ async function start(){
     const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
     console.log("start");
     while(waiting == "true"){
-        await sleep(100);
         opasan = document.getElementById("start_button").style.opacity;
         if(change == "plus"){
             document.getElementById("start_button").style.opacity = opasan + 0.1;
         }else{
             document.getElementById("start_button").style.opacity = opasan - 0.1;
         }
+        await sleep(100);
         console.log(document.getElementById("start_button").style.opacity);
         opasan = document.getElementById("start_button").style.opacity;
         if(document.getElementById("start_button").style.opacity == 0){
