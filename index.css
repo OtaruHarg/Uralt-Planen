@@ -6,10 +6,10 @@ body{
 
 .Core_drivia{
     position: absolute;
-    top: 10vh;
-    bottom: 10vh;
+    top: 5vh;
+    bottom: 20vh;
     width: 100vw;
-    height: 80vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
