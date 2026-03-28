@@ -5,6 +5,7 @@ let currentRotation = 0;
 var mode_revel = 1;
 var waiting = "true";
 var change = "minus";
+var opasan;
 
 window.onload = start();
 
