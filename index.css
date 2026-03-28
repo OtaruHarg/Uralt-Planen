@@ -38,3 +38,10 @@ body{
 #loading{
     transform: rotate(90);
 }
+
+.last_time{
+    position: absolute;
+    bottom: 5vh;
+    height: 10vh;
+    width: 100vw;
+}
