@@ -10,9 +10,9 @@ var opasan;
 window.onload = start();
 
 async function start(){
-//    document.getElementById("gamen_start").style.zIndex = "100";
+    document.getElementById("gamen_start").style.zIndex = "100";
+    document.getElementById("start_button").style.zIndex = "150";
 //    document.getElementById("gamen_start").style.position = 'relative'; 
-//    document.getElementById("start_button").style.zIndex = "150";
 //    document.getElementById("start_button").style.position = 'relative'; 
     document.getElementById("start_button").style.opacity = 1;
     const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
