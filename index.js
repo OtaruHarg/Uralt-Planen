@@ -7,6 +7,7 @@ window.onload = loops();
 
 
 async function loops(){
+    console.log("we");
     const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
     while(fin != "true"){
         if(kaset_mode == "read"){
