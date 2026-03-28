@@ -23,6 +23,7 @@ async function start(){
         }else{
             document.getElementById("start_button").style.opacity = opasan - 0.1;
             console.log("minus");
+            console.log(opasan);
         }
         console.log(document.getElementById("start_button").style.opacity);
         opasan = document.getElementById("start_button").style.opacity;
