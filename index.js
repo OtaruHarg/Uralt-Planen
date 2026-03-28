@@ -12,6 +12,7 @@ async function loops(){
     while(fin != "true"){
         if(kaset_mode == "read"){
             let x = document.getElementById("#loading");
+            console.log(x);
             x.style.transform = "rotate(" + 10 + "deg)";
         }else if(kaset_mode == "fin"){
             document.getElementById("loading").src = "fin.png";
