@@ -6,6 +6,8 @@ body{
 }
 
 .back{
+    margin: 0;
+    padding: 0;
     background-color: white;
     height: 100%;
     width: 100%;
@@ -13,6 +15,8 @@ body{
 }
 
 .gamen_start{
+    margin: 0;
+    padding: 0;
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -20,6 +24,8 @@ body{
 }
 
 .start_button{
+    margin: 0;
+    padding: 0;
     position: absolute;
     top: 70vh;
     bottom: 20vh;
@@ -35,6 +41,8 @@ body{
 }
 
 .Core_drivia{
+    margin: 0;
+    padding: 0;
     position: absolute;
     top: 15vh;
     bottom: 20vh;
@@ -48,11 +56,15 @@ body{
 }
 
 .Core_drivia_image{
+    margin: 0;
+    padding: 0;
     transform: rotate(90deg);
     z-index: 40;
 }
 
 .loading{
+    margin: 0;
+    padding: 0;
     position: absolute;
     height: 10vh;
     width: 80vw;
@@ -69,12 +81,16 @@ body{
 }
 
 #loading{
+    margin: 0;
+    padding: 0;
     background-color: white;
     z-index: 60;
 }
 
 
 .last_time{
+    margin: 0;
+    padding: 0;
     position: absolute;
     bottom: 5vh;
     height: 10vh;
