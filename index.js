@@ -32,6 +32,7 @@ async function start(){
         }else if(document.getElementById("start_button").style.opacity == 1){
             change = "minus";
         }
+        console.log(change);
     }
     document.getElementById("gamen_start").style.zIndex = -100;
     document.getElementById("start_button").style.zIndex = -100;
