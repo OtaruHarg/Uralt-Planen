@@ -34,3 +34,7 @@ body{
     align-items: center;
     z-index: 50;
 }
+
+#loading{
+    transform: rotate(90);
+}
