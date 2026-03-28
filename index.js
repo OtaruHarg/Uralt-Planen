@@ -3,8 +3,18 @@ var fin = "false";
 var sleeptime = 0;
 let currentRotation = 0;
 var mode_revel = 1;
+var waiting = "true";
 
-window.onload = loops();
+
+window.onload = start();
+
+async function start(){
+    document.getElementById("gamen_start").style.zIndex = 500;
+    while(waiting == "true"){
+        await sleep(100);
+    }
+}
+loops();
 
 async function loops(){
     console.log("we");

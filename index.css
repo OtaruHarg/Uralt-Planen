@@ -6,6 +6,10 @@ body{
     margin: 0;
 }
 
+.gamen_start{
+    position: absolute;
+}
+
 .Core_drivia{
     position: absolute;
     top: 5vh;
