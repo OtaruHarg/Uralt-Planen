@@ -11,7 +11,8 @@ async function loops(){
     const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
     while(fin != "true"){
         if(kaset_mode == "read"){
-            document.getElementById("loading").style.transform = "rotate(" + 10 + "deg)";
+            let x = document.getElementById("loading");
+            x.style.transform = "rotate(" + 10 + "deg)";
         }else if(kaset_mode == "fin"){
             document.getElementById("loading").src = "fin.png";
         }
