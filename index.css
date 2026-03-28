@@ -22,9 +22,12 @@ body{
 .loading{
     position: absolute;
     height: 10vh;
-    width: 10vh;
+    width: 10vw;
     top: 45vh;
     bottom: 45vh;
-    left: auto;
-    right: auto;
+    left: 45vw;
+    right: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
