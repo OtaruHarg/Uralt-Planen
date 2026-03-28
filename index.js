@@ -10,6 +10,7 @@ window.onload = start();
 
 async function start(){
     document.getElementById("gamen_start").style.zIndex = 500;
+    const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
     while(waiting == "true"){
         await sleep(100);
         opasan = document.getElementById("start_button").style.opacity;
@@ -19,9 +20,9 @@ async function start(){
             document.getElementById("start_button").style.opacity = opasan - 0.1;
         }
         opasan = document.getElementById("start_button").style.opacity;
-        if(opasan == 0){
+        if(document.getElementById("start_button").style.opacity == 0){
             change = "plus";
-        }else if(opasan == 1){
+        }else if(document.getElementById("start_button").style.opacity == 1){
             change = "minus";
         }
     }
