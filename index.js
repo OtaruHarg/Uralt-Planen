@@ -44,6 +44,7 @@ async function start(){
 
 function start_next(){
     waiting = "false";
+    console.log("next");
 }
 
 
