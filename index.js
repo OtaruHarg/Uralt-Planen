@@ -10,9 +10,10 @@ async function loops(){
     const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
     while(fin != "true"){
         if(kaset_mode == "read"){
-            const box = document.getElementById('box');
+            const lding = document.getElementById('loading');
             currentRotation += 10;
             console.log("trun");
+            lding.style.transform = `rotate(${currentRotation}deg)`;
         }else if(kaset_mode == "fin"){
             document.getElementById("loading").src = "fin.png";
         }
