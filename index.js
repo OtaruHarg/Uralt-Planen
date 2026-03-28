@@ -4,9 +4,10 @@ var fin = "false";
 
 window.onload = loops();
 
-const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));//timeはミリ秒
+
 
 async function loops(){
+    const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
     while(fin != "true"){
         if(kaset_mode == "read"){
             document.getElementById("loading").style.transform = "rotate(" + 10 + "deg)";
