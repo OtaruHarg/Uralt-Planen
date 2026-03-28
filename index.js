@@ -28,6 +28,7 @@ async function start(){
         }
     }
     document.getElementById("gamen_start").style.zIndex = -100;
+    document.getElementById("start_button").style.zIndex = -100;
     loops();
 }
 
