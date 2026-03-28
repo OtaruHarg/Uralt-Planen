@@ -23,9 +23,9 @@ body{
 
 .loading{
     position: absolute;
-    height: 80vh;
+    height: 10vh;
     width: 80vw;
-    top: 10vh;
+    top: 80vh;
     bottom: 10vh;
     left: 10vw;
     right: 10vw;
