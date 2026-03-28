@@ -4,12 +4,13 @@ var sleeptime = 0;
 let currentRotation = 0;
 var mode_revel = 1;
 var waiting = "true";
-
+var change = "minus";
 
 window.onload = start();
 
 async function start(){
     document.getElementById("gamen_start").style.zIndex = 500;
+    document.getElementById("start_button").style.zIndex = 1000;
     const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
     while(waiting == "true"){
         await sleep(100);
