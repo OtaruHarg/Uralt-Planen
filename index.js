@@ -1,4 +1,4 @@
-var kaset_mode = "";
+var kaset_mode = "read";
 var fin = "false";
 
 
