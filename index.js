@@ -12,9 +12,28 @@ async function start(){
     document.getElementById("gamen_start").style.zIndex = 500;
     while(waiting == "true"){
         await sleep(100);
+        op = document.getElementById("start_button").style.opacity;
+        if(change == "plus"){
+            document.getElementById("start_button").style.opacity = op + 0.1;
+        }else{
+            document.getElementById("start_button").style.opacity = op - 0.1;
+        }
+        op = document.getElementById("start_button").style.opacity;
+        if(op == 0){
+            change = "plus";
+        }else if(op == 1){
+            change = "minus";
+        }
     }
+    document.getElementById("gamen_start").style.zIndex = -100;
+    loops();
 }
-loops();
+
+
+function start_next(){
+    waiting = "false";
+}
+
 
 async function loops(){
     console.log("we");
