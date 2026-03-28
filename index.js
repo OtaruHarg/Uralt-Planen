@@ -25,14 +25,12 @@ async function start(){
             document.getElementById("start_button").style.opacity = Number(opasan) - 0.1;
         }
         await sleep(100);
-        console.log(document.getElementById("start_button").style.opacity);
         opasan = document.getElementById("start_button").style.opacity;
         if(document.getElementById("start_button").style.opacity == 0){
             change = "plus";
         }else if(document.getElementById("start_button").style.opacity == 1){
             change = "minus";
         }
-        console.log(change);
     }
     document.getElementById("gamen_start").style.zIndex = -100;
     document.getElementById("start_button").style.zIndex = -100;
