@@ -2,7 +2,10 @@
     position: absolute;
     top: 10vh;
     bottom: 10vh;
-    width: auto;
+    width: 100vw;
     height: 80vh;
     transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
