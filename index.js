@@ -20,9 +20,9 @@ async function start(){
     while(waiting == "true"){
         opasan = document.getElementById("start_button").style.opacity;
         if(change == "plus"){
-            document.getElementById("start_button").style.opacity = opasan + 0.1;
+            document.getElementById("start_button").style.opacity = Number(opasan) + 0.1;
         }else{
-            document.getElementById("start_button").style.opacity = opasan - 0.1;
+            document.getElementById("start_button").style.opacity = Number(opasan) - 0.1;
         }
         await sleep(100);
         console.log(document.getElementById("start_button").style.opacity);
