@@ -4,4 +4,5 @@
     bottom: 10vh;
     width: auto;
     height: 80vh;
+    transform: rotate(90deg);
 }
