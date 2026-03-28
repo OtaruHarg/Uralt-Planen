@@ -1,6 +1,6 @@
 var kaset_mode = "read";
 var fin = "false";
-
+var sleeptime = 0;
 
 window.onload = loops();
 
@@ -15,5 +15,10 @@ async function loops(){
             document.getElementById("loading").src = "fin.png";
         }
         await sleep(100);
+        sleeptime = sleeptime + 1;
+        if(sleep >= 10){
+            console.assert("time");
+            sleeptime = 0;
+        }
     }
 }
