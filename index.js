@@ -17,7 +17,7 @@ async function loops(){
         await sleep(100);
         sleeptime = sleeptime + 1;
         if(sleeptime >= 10){
-            console.assert("time");
+            console.log("time");
             sleeptime = 0;
         }
     }
