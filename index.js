@@ -2,7 +2,7 @@ var kaset_mode = "read";
 var fin = "false";
 var sleeptime = 0;
 let currentRotation = 0;
-var mode_revel = 0;
+var mode_revel = 1;
 
 window.onload = loops();
 
@@ -13,22 +13,31 @@ async function loops(){
         if(kaset_mode == "read"){
             if(mode_revel == 1){
                 document.getElementById("loading").textContent = ".. LADEN";
+                mode_revel = 2;
             }else if(mode_revel == 2){
                 document.getElementById("loading").textContent = ". LADEN.";
+                mode_revel = 3;
             }else if(mode_revel == 3){
                 document.getElementById("loading").textContent = " LADEN..";
+                mode_revel = 4;
             }else if(mode_revel == 4){
                 document.getElementById("loading").textContent = "LADEN...";
+                mode_revel = 5;
             }else if(mode_revel == 5){
                 document.getElementById("loading").textContent = "ADEN... ";
-            }else if(mode_revel == 5){
+                mode_revel = 6;
+            }else if(mode_revel == 6){
                 document.getElementById("loading").textContent = "DEN... L";
-            }else if(mode_revel == 5){
+                mode_revel = 7;
+            }else if(mode_revel == 7){
                 document.getElementById("loading").textContent = "EN... LA";
-            }else if(mode_revel == 5){
+                mode_revel = 8;
+            }else if(mode_revel == 8){
                 document.getElementById("loading").textContent = "N... LAD";
-            }else if(mode_revel == 5){
+                mode_revel = 9;
+            }else if(mode_revel == 9){
                 document.getElementById("loading").textContent = "... LADE";
+                mode_revel = 1;
             }
         }else if(kaset_mode == "fin"){
             document.getElementById("loading").src = "fin.png";
