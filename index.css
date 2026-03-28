@@ -8,6 +8,7 @@ body{
 
 .gamen_start{
     position: absolute;
+    z-index: -100;
 }
 
 .Core_drivia{
