@@ -27,8 +27,8 @@ body{
     position: absolute;
     height: 10vh;
     width: 80vw;
-    top: 70vh;
-    bottom: 20vh;
+    top: 75vh;
+    bottom: 15vh;
     left: 10vw;
     right: 10vw;
     display: flex;
