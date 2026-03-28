@@ -11,6 +11,7 @@ window.onload = start();
 async function start(){
     document.getElementById("gamen_start").style.zIndex = 1000;
     document.getElementById("start_button").style.zIndex = 1500;
+    document.getElementById("start_button").style.opacity = 1;
     const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
     console.log("start");
     while(waiting == "true"){
