@@ -25,6 +25,7 @@ body{
     align-items: center;
     font-size: 10vh;
     z-index: -100;
+    opacity: 1;
 }
 
 .Core_drivia{
