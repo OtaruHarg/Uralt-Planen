@@ -18,3 +18,13 @@ body{
 .Core_drivia_image{
     transform: rotate(90deg);
 }
+
+.loading{
+    position: absolute;
+    height: 10vh;
+    width: 10vh;
+    top: 45vh;
+    bottom: 45vh;
+    left: auto;
+    right: auto;
+}
