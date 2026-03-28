@@ -22,14 +22,14 @@ body{
 
 .loading{
     position: absolute;
-    height: 10vh;
-    width: 10vw;
-    top: 45vh;
-    bottom: 45vh;
-    left: 45vw;
-    right: 45vw;
+    height: 80vh;
+    width: 80vw;
+    top: 10vh;
+    bottom: 10vh;
+    left: 10vw;
+    right: 10vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 10;
+    z-index: 50;
 }
