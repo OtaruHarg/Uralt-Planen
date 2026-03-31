@@ -70,8 +70,7 @@ body{
     width: 1080px;
     top: 1440px;
     bottom: 288px;
-    left: 108px;
-    right: 108px;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,9 +83,6 @@ body{
 #loading{
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     z-index: 60;
 }
 
