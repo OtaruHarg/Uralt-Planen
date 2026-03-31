@@ -22,7 +22,7 @@ async function start(){
         }else{
             document.getElementById("start_button").style.opacity = Number(opasan) - 0.1;
         }
-        await sleep(100);
+        await sleep(50);
         opasan = document.getElementById("start_button").style.opacity;
         if(document.getElementById("start_button").style.opacity == 0){
             change = "plus";
