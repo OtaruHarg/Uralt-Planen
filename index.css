@@ -67,7 +67,7 @@ body{
     padding: 0;
     position: absolute;
     height: 192px;
-    width: 864px;
+    width: 1080px;
     top: 1440px;
     bottom: 288px;
     left: 108px;
@@ -78,16 +78,15 @@ body{
     z-index: 50;
     opacity: 0.9;
     font-size: 96px;
+    background-color: white;
 }
 
 #loading{
     margin: 0;
     padding: 0;
-    width: 1080px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
     z-index: 60;
 }
 
